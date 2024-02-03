@@ -34,8 +34,7 @@ public class OneOfEachStats {
 			  isGirl = true;
 		      }
 		      fcount++;
-	    }
-	    total++;   
+	    }   
         total = total + fcount;
  
         if (fcount == 2) {
@@ -52,7 +51,7 @@ public class OneOfEachStats {
 
     System.out.println("Average: " + avg + " children to get at least one of each gender.");
     System.out.println("Number of families with 2 children: " + h2c);
-    System.out.println("Number of families with  c3hildren: " + h3c);
+    System.out.println("Number of families with 3 children: " + h3c);
     System.out.println("Number of families with 4 or more children: " + h4mc);
 
 

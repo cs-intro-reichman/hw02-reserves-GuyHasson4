@@ -5,7 +5,7 @@ public class Perfect {
 	public static void main (String[] args) {
 		//// Put your code here
 		int num = Integer.parseInt(args[0]);
-		String p = num + " is a perfect number since " + num + " = 1 ";
+		String p = num + " is a perfect number since " + num + " = 1";
         int total = 1;
 		for (int i = 2; i < num; i++) {
             if(num % i == 0){
